@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Holiday | Stivani Anggraini</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .holiday-page {
+      width: min(1000px, 92%);
+      margin: 35px auto;
+      color: #455b46;
+    }
+
+    .holiday-hero, .holiday-section {
+      padding: clamp(18px, 4vw, 30px);
+      margin-bottom: 25px;
+      background: #fffdf7;
+      border: 1px solid #dce7d2;
+      border-radius: 22px;
+      box-shadow: 0 5px 15px #4a664512;
+    }
+
+    .holiday-hero {
+      text-align: center;
+      background: #f6f3e8;
+      padding: 35px 20px;
+    }
+
+    .holiday-hero h1 {
+      color: #527557;
+      font-size: clamp(28px, 5vw, 44px);
+      margin: 12px 0;
+    }
+
+    .holiday-dino {
+      font-size: 32px;
+    }
+
+    .holiday-section h2 {
+      color: #527557;
+      font-size: clamp(21px, 3vw, 28px);
+      margin-bottom: 12px;
+    }
+
+    .holiday-page p {
+      line-height: 1.9;
+      margin-bottom: 12px;
+    }
+
+    .holiday-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .holiday-card {
+      flex: 1 1 220px;
+      max-width: 300px;
+      min-width: 0;
+      margin: 0;
+      padding: 10px;
+      background: #f7f4e9;
+      border: 1px solid #d8e4ce;
+      border-radius: 17px;
+      box-shadow: 0 5px 12px #4a66451a;
+    }
+
+    .holiday-card img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 3 / 4;
+      object-fit: cover;
+      border-radius: 11px;
+    }
+
+    .holiday-card figcaption {
+      padding: 12px 4px 5px;
+      text-align: center;
+      font-size: 13px;
+      color: #61785d;
+    }
+
+    .holiday-ending {
+      padding: 25px 10px;
+      text-align: center;
+      color: #527557;
+    }
+
+    @media (max-width: 500px) {
+      .holiday-page {
+        width: 94%;
+        margin: 20px auto;
+      }
+
+      .holiday-card {
+        flex-basis: 100%;
+        max-width: 100%;
+      }
+
+      .holiday-card img {
+        aspect-ratio: 4 / 3;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigasi website -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="biodata.html">Biodata</a>
+    <a href="myholiday.html">My Holiday</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main class="holiday-page">
+
+    <header class="holiday-hero">
+      <div class="holiday-dino">🌿 🦕 🌼</div>
+      <h1>My Little Holiday Diary</h1>
+      <p><em>Cerita Kecil di Kota Bekasi</em></p>
+      <p>
+        Three months of new experiences, little adventures,
+        and beautiful memories that will always stay with me. ♡
+      </p>
+    </header>
+
+    <section class="holiday-section">
+      <h2>🌷 01. Awal Liburanku</h2>
+      <p>
+        Sebelum memulai perjalanan kuliah di Universitas Advent Indonesia,
+        aku menghabiskan waktu liburan selama kurang lebih tiga bulan.
+        Masa liburan ini menjadi kesempatan bagiku untuk mendapatkan
+        pengalaman baru, belajar mandiri, dan mengumpulkan kenangan
+        berharga sebelum memulai kehidupan sebagai mahasiswa.
+      </p>
+
+      <div class="holiday-gallery">
+        <figure class="holiday-card">
+          <img src="images/holiday1.jpeg"
+               alt="Kenangan bersama anjing kesayangan di Cimahi"
+               loading="lazy">
+          <figcaption>
+            My Little Buddy in Cimahi 🐶
+          </figcaption>
+        </figure>
+
+        <figure class="holiday-card">
+          <img src="images/holiday2.jpeg"
+               alt="Momen bersama anjing kesayangan"
+               loading="lazy">
+          <figcaption>
+            Little Moments, Big Memories ♡
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="holiday-section">
+      <h2>🌻 02. Pengalaman Selama Liburan</h2>
+      <p>
+        Selama berada di Bekasi, aku bekerja membantu pekerjaan rumah tangga.
+        Kegiatanku meliputi menjaga dua anak kecil serta membantu membersihkan
+        rumah dua lantai. Pengalaman ini mengajarkanku untuk mengatur waktu,
+        menyelesaikan pekerjaan dengan baik, dan bertanggung jawab terhadap
+        tugas yang diberikan.
+      </p>
+
+      <div class="holiday-gallery">
+        <figure class="holiday-card">
+          <img src="images/holiday3.jpeg"
+               alt="Kenangan bersama teman-teman"
+               loading="lazy">
+          <figcaption>
+            Days Worth Remembering 🌿
+          </figcaption>
+        </figure>
+
+        <figure class="holiday-card">
+          <img src="images/holiday4.jpeg"
+               alt="Foto bersama teman pada acara wisuda Kak Nirmala"
+               loading="lazy">
+          <figcaption>
+            Celebrating Kak Nirmala ♡
+          </figcaption>
+        </figure>
+      </div>
+
+      <p>
+        Pada akhir pekan, aku juga mengikuti kegiatan gereja.
+        Kegiatan tersebut menjadi bagian dari rutinitasku selama liburan.
+        Dari semua pengalaman ini, aku belajar bahwa kegiatan sehari-hari
+        pun bisa memberikan pelajaran yang berarti.
+      </p>
+    </section>
+
+    <section class="holiday-section">
+      <h2>📸 03. Potongan Kenangan</h2>
+      <p>
+        Setiap foto menyimpan cerita yang berbeda. Ada kenangan bersama
+        teman, momen kebersamaan, dan pengalaman yang membuat masa liburan
+        terasa istimewa. Bagiku, kenangan berharga tidak harus berasal
+        dari perjalanan jauh, karena momen sederhana pun dapat membekas
+        dalam ingatan.
+      </p>
+
+      <div class="holiday-gallery">
+        <figure class="holiday-card">
+          <img src="images/holiday5.jpeg"
+               alt="Potongan kenangan selama liburan"
+               loading="lazy">
+          <figcaption>
+            Sweet Memories 🌷
+          </figcaption>
+        </figure>
+
+        <figure class="holiday-card">
+          <img src="images/holiday6.jpeg"
+               alt="Kenangan menjelang akhir masa liburan"
+               loading="lazy">
+          <figcaption>
+            Moments to Keep 💚
+          </figcaption>
+        </figure>
+
+        <figure class="holiday-card">
+          <img src="images/holiday7.jpeg"
+               alt="Kenangan terakhir sebelum masa liburan berakhir"
+               loading="lazy">
+          <figcaption>
+            The Last Holiday Memories 🦕
+          </figcaption>
+        </figure>
+      </div>
+
+      <p>
+        Salah satu kenangan yang berkesan menjelang akhir liburanku adalah
+        menghadiri wisuda Kak Nirmala di Chapel Universitas Advent Indonesia.
+        Saat itu, aku masih berada dalam masa liburan. Acara tersebut menjadi
+        momen istimewa sekaligus pengingat bahwa waktuku untuk memulai
+        perjalanan sebagai mahasiswa semakin dekat.
+      </p>
+    </section>
+
+    <section class="holiday-section">
+      <h2>💚 04. Refleksi dan Pelajaran dari Liburanku</h2>
+      <p>
+        Liburan ini memberiku pengalaman yang lebih dari sekadar mengisi
+        waktu luang. Aku belajar menjadi lebih mandiri, sabar, disiplin,
+        dan bertanggung jawab. Pengalaman bekerja dan menghabiskan waktu
+        bersama orang-orang di sekitarku membuatku lebih menghargai
+        waktu, usaha, dan kebersamaan.
+      </p>
+
+      <p>
+        Menjelang akhir liburan, aku mulai mempersiapkan diri untuk
+        memasuki babak baru dalam hidupku di Universitas Advent Indonesia.
+        Aku membawa berbagai kenangan dan pelajaran yang akan menjadi
+        bekal dalam menjalani kehidupan perkuliahan.
+      </p>
+
+      <p>
+        Bagiku, tiga bulan tersebut bukan sekadar masa liburan,
+        tetapi juga kesempatan untuk belajar, bertumbuh, dan
+        mempersiapkan diri menghadapi pengalaman baru.
+      </p>
+    </section>
+
+    <footer class="holiday-ending">
+      <div class="holiday-dino">🦕 🌿 💌</div>
+      <p>Thank you for visiting my little holiday diary!</p>
+      <p><em>Small moments become beautiful memories. ♡</em></p>
+    </footer>
+
+  </main>
+
+</body>
+</html>
