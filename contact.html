@@ -1,86 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak | Stivani Anggraini</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="contact-page">
+    <header class="navbar">
+        <a href="index.html" class="logo">Stivani<span>.</span></a>
+        <nav class="nav-links">
+            <a href="index.html">Beranda</a>
+            <a href="biodata.html">Profil</a>
+            <a href="myholiday.html">Liburan</a>
+            <a href="contact.html" class="active">Kontak</a>
+        </nav>
+    </header>
 
-<div class="contact-page">
+    <main class="container">
+        <section class="contact-heading">
+            <p class="eyebrow">MARI TERHUBUNG</p>
+            <h1>Yuk, Terhubung Denganku</h1>
+            <p>Terima kasih sudah mengunjungi website pribadiku. Jangan ragu untuk menyapa atau mengirim pesan!</p>
+        </section>
 
-    <div class="contact-heading">
-        <h1>Yuk, Terhubung denganku ♡</h1>
-        <p>Aku senang bisa mendengar cerita dan pesan darimu!</p>
-    </div>
+        <section class="contact-layout">
+            <div class="contact-info">
+                <h2>Temukan Saya</h2>
+                <p>Silakan terhubung melalui platform di bawah ini:</p>
 
-    <div class="contact-layout">
+                <!-- Email -->
+                <a href="mailto:stevanianggraini70@gmail.com" class="contact-link">
+                    <strong>Email</strong><br><small>stevanianggraini70@gmail.com</small>
+                </a>
 
-        <div class="contact-info">
-            <h2>Temukan Aku Online 💌</h2>
-            <p>
-                Terima kasih sudah mengunjungi website pribadiku!
-                Kamu bisa menghubungiku melalui media sosial berikut.
-            </p>
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/stevayz/" target="_blank" rel="noopener noreferrer" class="contact-link">
+                    <strong>Instagram</strong><br><small>@stevayz</small>
+                </a>
 
-            <a href="mailto:stevanianggraini@gmail.com"
-               class="contact-link">
-                💌 Email
-                <span>stevanianggraini@gmail.com</span>
-            </a>
+                <!-- GitHub Sesuai Repo Kamu -->
+                <a href="https://github.com/stivanianggrainistivanianggraini-2582003/html-about-me" target="_blank" rel="noopener noreferrer" class="contact-link">
+                    <strong>GitHub Repository</strong><br><small>stivanianggraini-2582003/html-about-me</small>
+                </a>
+            </div>
 
-            <a href="https://www.instagram.com/stevayz/"
-               target="_blank" rel="noopener noreferrer"
-               class="contact-link">
-                📸 Instagram
-                <span>@stevayz</span>
-            </a>
+            <div class="contact-form-box">
+                <h2>Formulir Pesan</h2>
+                <form action="mailto:stevanianggraini70@gmail.com" method="post" enctype="text/plain">
+                    <label for="fullname">Nama Lengkap</label>
+                    <input type="text" id="fullname" name="Nama" placeholder="Masukkan nama lengkap" required>
 
-            <a href="https://www.facebook.com/li.vhen"
-               target="_blank" rel="noopener noreferrer"
-               class="contact-link">
-                💙 Facebook
-                <span>Li Vhen</span>
-            </a>
+                    <label for="email">Alamat Email</label>
+                    <input type="email" id="email" name="Email" placeholder="Masukkan alamat email" required>
 
-            <a href="https://www.tiktok.com/@ultraa097"
-               target="_blank" rel="noopener noreferrer"
-               class="contact-link">
-                🎵 TikTok
-                <span>@ultraa097</span>
-            </a>
-        </div>
+                    <label for="message">Pesan</label>
+                    <textarea id="message" name="Pesan" rows="4" placeholder="Tuliskan pesan kamu di sini..." required></textarea>
 
-        <div class="contact-form-box">
-            <h2>Kirim Pesan untukku ✨</h2>
-            <p>
-                Punya sesuatu yang ingin disampaikan?
-                Tulis pesanmu di bawah ini, ya!
-            </p>
+                    <button type="submit">Kirim Pesan &rarr;</button>
+                </form>
+            </div>
+        </section>
+    </main>
 
-            <form action="https://formsubmit.co/stevanianggraini@gmail.com"
-                  method="POST">
-
-                <input type="hidden" name="_subject"
-                       value="Pesan dari Website Stivani">
-
-                <label for="contact-name">Nama Lengkap</label>
-                <input type="text" id="contact-name" name="name"
-                       placeholder="Masukkan nama kamu" required>
-
-                <label for="contact-email">Alamat Email</label>
-                <input type="email" id="contact-email" name="email"
-                       placeholder="Masukkan email kamu" required>
-
-                <label for="contact-subject">Subjek Pesan</label>
-                <input type="text" id="contact-subject" name="subject"
-                       placeholder="Tentang apa pesanmu?" required>
-
-                <label for="contact-message">Isi Pesan</label>
-                <textarea id="contact-message" name="message" rows="5"
-                          placeholder="Tulis pesanmu di sini..."
-                          required></textarea>
-
-                <button type="submit">Kirim Pesan ♡</button>
-            </form>
-        </div>
-
-    </div>
-
-    <div class="contact-footer">
-        <p>Dibuat dengan ♡ oleh Stivani Anggraini</p>
-    </div>
-
-</div>
+    <footer>
+        <p>&copy; 2026 Stivani Anggraini - 2582003</p>
+    </footer>
+</body>
+</html>
